@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`App renders correctly 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -12,6 +12,11 @@ ShallowWrapper {
     <h2>
         Gift Giver
     </h2>
+    <div
+        className="gift-list"
+    >
+        
+    </div>
     <Button
         active={false}
         block={false}
@@ -29,6 +34,11 @@ ShallowWrapper {
       <h2>
             Gift Giver
       </h2>
+      <div
+            className="gift-list"
+      >
+            
+      </div>
       <Button
             active={false}
             block={false}
@@ -58,6 +68,7 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {},
         "refs": Object {},
+        "removeGift": [Function],
         "state": Object {
           "gifts": Array [],
         },
@@ -83,6 +94,11 @@ ShallowWrapper {
           <h2>
                     Gift Giver
           </h2>
+          <div
+                    className="gift-list"
+          >
+                    
+          </div>
           <Button
                     active={false}
                     block={false}
@@ -100,6 +116,11 @@ ShallowWrapper {
           <h2>
                     Gift Giver
           </h2>
+          <div
+                    className="gift-list"
+          >
+                    
+          </div>
           <Button
                     active={false}
                     block={false}
