@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wallet renders properly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h3
+        className="balance"
+    >
+        Wallet balance: 
+        20
+    </h3>
+    <br />
+    <input
+        className="input-wallet"
+        onChange={[Function]}
+    />
+    <button
+        className="btn-deposit"
+        onClick={[Function]}
+    >
+        Deposit
+    </button>
+    <button
+        className="btn-withdraw"
+        onClick={[Function]}
+    >
+        Withdraw
+    </button>
+</div>,
+  "nodes": Array [
+    <div>
+      <h3
+            className="balance"
+      >
+            Wallet balance: 
+            20
+      </h3>
+      <br />
+      <input
+            className="input-wallet"
+            onChange={[Function]}
+      />
+      <button
+            className="btn-deposit"
+            onClick={[Function]}
+      >
+            Deposit
+      </button>
+      <button
+            className="btn-withdraw"
+            onClick={[Function]}
+      >
+            Withdraw
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Wallet
+        balance={20}
+        deposit={[Function]}
+        withdraw={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Wallet {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "deposit": [Function],
+        "props": Object {
+          "balance": 20,
+          "deposit": [Function],
+          "withdraw": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "balance": undefined,
+        },
+        "updateBalance": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "withdraw": [Function],
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <h3
+                    className="balance"
+          >
+                    Wallet balance: 
+                    20
+          </h3>
+          <br />
+          <input
+                    className="input-wallet"
+                    onChange={[Function]}
+          />
+          <button
+                    className="btn-deposit"
+                    onClick={[Function]}
+          >
+                    Deposit
+          </button>
+          <button
+                    className="btn-withdraw"
+                    onClick={[Function]}
+          >
+                    Withdraw
+          </button>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <h3
+                    className="balance"
+          >
+                    Wallet balance: 
+                    20
+          </h3>
+          <br />
+          <input
+                    className="input-wallet"
+                    onChange={[Function]}
+          />
+          <button
+                    className="btn-deposit"
+                    onClick={[Function]}
+          >
+                    Deposit
+          </button>
+          <button
+                    className="btn-withdraw"
+                    onClick={[Function]}
+          >
+                    Withdraw
+          </button>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Wallet
+    balance={20}
+    deposit={[Function]}
+    withdraw={[Function]}
+/>,
+}
+`;
