@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders properly 1`] = `
+exports[`Loot renders properly 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -8,40 +8,36 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <h2>
-        Loot Check
-    </h2>
-    <hr />
-    <Connect(Wallet) />
-    <hr />
-    <Connect(Loot) />
-</div>,
+  "node": <h3>
+    Bitcoin balance: 
+    
+</h3>,
   "nodes": Array [
-    <div>
-      <h2>
-            Loot Check
-      </h2>
-      <hr />
-      <Connect(Wallet) />
-      <hr />
-      <Connect(Loot) />
-</div>,
+    <h3>
+      Bitcoin balance: 
+      
+</h3>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
     "_instance": ShallowComponentWrapper {
       "_calledComponentWillUnmount": false,
-      "_compositeType": 2,
+      "_compositeType": 0,
       "_context": Object {},
-      "_currentElement": <App />,
+      "_currentElement": <Loot
+        balance={10}
+        bitcoin={Object {}}
+/>,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": StatelessComponent {
+      "_instance": Loot {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {},
+        "props": Object {
+          "balance": 10,
+          "bitcoin": Object {},
+        },
         "refs": Object {},
         "state": null,
         "updater": Object {
@@ -62,25 +58,15 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
-          <h2>
-                    Loot Check
-          </h2>
-          <hr />
-          <Connect(Wallet) />
-          <hr />
-          <Connect(Loot) />
-</div>,
+        "_currentElement": <h3>
+          Bitcoin balance: 
+          
+</h3>,
         "_debugID": 2,
-        "_renderedOutput": <div>
-          <h2>
-                    Loot Check
-          </h2>
-          <hr />
-          <Connect(Wallet) />
-          <hr />
-          <Connect(Loot) />
-</div>,
+        "_renderedOutput": <h3>
+          Bitcoin balance: 
+          
+</h3>,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -92,6 +78,9 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <App />,
+  "unrendered": <Loot
+    balance={10}
+    bitcoin={Object {}}
+/>,
 }
 `;
