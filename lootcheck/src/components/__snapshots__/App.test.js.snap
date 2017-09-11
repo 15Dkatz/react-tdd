@@ -16,6 +16,15 @@ ShallowWrapper {
     <Connect(Wallet) />
     <hr />
     <Connect(Loot) />
+    <div>
+        Powered by 
+        <a
+            href="https://www.coindesk.com/price"
+            target="_blank"
+        >
+            Coindesk
+        </a>
+    </div>
 </div>,
   "nodes": Array [
     <div>
@@ -26,6 +35,15 @@ ShallowWrapper {
       <Connect(Wallet) />
       <hr />
       <Connect(Loot) />
+      <div>
+            Powered by 
+            <a
+                  href="https://www.coindesk.com/price"
+                  target="_blank"
+            >
+                  Coindesk
+            </a>
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -70,6 +88,15 @@ ShallowWrapper {
           <Connect(Wallet) />
           <hr />
           <Connect(Loot) />
+          <div>
+                    Powered by 
+                    <a
+                              href="https://www.coindesk.com/price"
+                              target="_blank"
+                    >
+                              Coindesk
+                    </a>
+          </div>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
@@ -80,6 +107,15 @@ ShallowWrapper {
           <Connect(Wallet) />
           <hr />
           <Connect(Loot) />
+          <div>
+                    Powered by 
+                    <a
+                              href="https://www.coindesk.com/price"
+                              target="_blank"
+                    >
+                              Coindesk
+                    </a>
+          </div>
 </div>,
       },
       "_renderedNodeType": 0,

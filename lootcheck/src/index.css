@@ -1,0 +1,16 @@
+body {
+  background-image: url('./assets/background.jpg');
+  text-align: center;
+  padding: 5%;
+  font-size: 18px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+button, input {
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: white;
+}
