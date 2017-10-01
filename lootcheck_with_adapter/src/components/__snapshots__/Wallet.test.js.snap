@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wallet renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Wallet
+    balance={20}
+    deposit={[Function]}
+    withdraw={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3
+          className="balance"
+        >
+          Wallet balance: 
+          20
+        </h3>,
+        <br />,
+        <input
+          className="input-wallet"
+          onChange={[Function]}
+        />,
+        <button
+          className="btn-deposit"
+          onClick={[Function]}
+        >
+          Deposit
+        </button>,
+        <button
+          className="btn-withdraw"
+          onClick={[Function]}
+        >
+          Withdraw
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Wallet balance: ",
+            20,
+          ],
+          "className": "balance",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Wallet balance: ",
+          20,
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "className": "input-wallet",
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Deposit",
+          "className": "btn-deposit",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Deposit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Withdraw",
+          "className": "btn-withdraw",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Withdraw",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3
+            className="balance"
+          >
+            Wallet balance: 
+            20
+          </h3>,
+          <br />,
+          <input
+            className="input-wallet"
+            onChange={[Function]}
+          />,
+          <button
+            className="btn-deposit"
+            onClick={[Function]}
+          >
+            Deposit
+          </button>,
+          <button
+            className="btn-withdraw"
+            onClick={[Function]}
+          >
+            Withdraw
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Wallet balance: ",
+              20,
+            ],
+            "className": "balance",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Wallet balance: ",
+            20,
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-wallet",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Deposit",
+            "className": "btn-deposit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Deposit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Withdraw",
+            "className": "btn-withdraw",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Withdraw",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
