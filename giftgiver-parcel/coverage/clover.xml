@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1504466136216" clover="3.2.0">
+  <project timestamp="1504466136216" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="12" elements="31" coveredelements="30" complexity="0" loc="16" ncloc="16" packages="2" files="3" classes="3">
+      <package name="components">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
+        <file name="App.js" path="/Users/davidkatz/react_tdd/react_tdd_scripts/giftgiver/src/components/App.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="14" count="4" type="stmt"/>
+          <line num="16" count="4" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="26" count="10" type="stmt"/>
+          <line num="32" count="4" type="stmt"/>
+        </file>
+        <file name="Gift.js" path="/Users/davidkatz/react_tdd/react_tdd_scripts/giftgiver/src/components/Gift.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="helper">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/davidkatz/react_tdd/react_tdd_scripts/giftgiver/src/helper/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

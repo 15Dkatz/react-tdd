@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gift
+    gift={
+      Object {
+        "id": 1,
+      }
+    }
+    removeGift={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Form
+          bsClass="form"
+          componentClass="form"
+          horizontal={false}
+          inline={false}
+        >
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Person
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="input-person"
+              componentClass="input"
+              onChange={[Function]}
+            />
+          </FormGroup>
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Present
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="input-present"
+              componentClass="input"
+              onChange={[Function]}
+            />
+          </FormGroup>
+        </Form>,
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="btn-remove"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Remove Gift
+        </Button>,
+      ],
+      "className": "gift",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "form",
+          "children": Array [
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Person
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>,
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Present
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-present"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>,
+          ],
+          "componentClass": "form",
+          "horizontal": false,
+          "inline": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Person
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Person",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Person",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "input-person",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Present
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="input-present"
+                  componentClass="input"
+                  onChange={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Present",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Present",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "input-present",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "active": false,
+          "block": false,
+          "bsClass": "btn",
+          "bsStyle": "default",
+          "children": "Remove Gift",
+          "className": "btn-remove",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove Gift",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Form
+            bsClass="form"
+            componentClass="form"
+            horizontal={false}
+            inline={false}
+          >
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Person
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Present
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-present"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>
+          </Form>,
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn-remove"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Remove Gift
+          </Button>,
+        ],
+        "className": "gift",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "form",
+            "children": Array [
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Person
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />
+              </FormGroup>,
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Present
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="input-present"
+                  componentClass="input"
+                  onChange={[Function]}
+                />
+              </FormGroup>,
+            ],
+            "componentClass": "form",
+            "horizontal": false,
+            "inline": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Person
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="input-person"
+                    componentClass="input"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Person",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Person",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "input-person",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Present
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="input-present"
+                    componentClass="input"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Present",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Present",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "input-present",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "block": false,
+            "bsClass": "btn",
+            "bsStyle": "default",
+            "children": "Remove Gift",
+            "className": "btn-remove",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove Gift",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
